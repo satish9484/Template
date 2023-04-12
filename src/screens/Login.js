@@ -26,8 +26,8 @@ class Login extends React.Component {
     document.body.classList.remove("theme-blush");
   }
   render() {
-    const { navigation } = this.props;
-    const { email, password } = this.props;
+    // const { navigation } = this.props;
+    // const { email, password } = this.props;
     return (
       <div className="theme-cyan">
         <div className="page-loader-wrapper" style={{ display: this.state.isLoad ? 'block' : 'none' }}>
